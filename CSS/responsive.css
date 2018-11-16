@@ -2,9 +2,24 @@
 
 /* ブレイクポイントが1000px以下のときのメディアクエリ */
 @media (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
+  .book {
+    width: 25%;
   }
 
+  .books-title {
+    width: 100%;
+  }
+}
+
+@media (max-width: 670px){
+  .book {
+    width: 100%;
+  }
+
+  .books-title {
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
 }

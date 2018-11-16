@@ -102,7 +102,6 @@ header p {
 
 .books-contents {
   padding: 50px 0;
-  height: 400px;
 }
 
 .book {
@@ -114,4 +113,8 @@ header p {
 .book-title {
   text-align: center;
   font-size: 12px;
+}
+
+.clear {
+  clear: left;
 }
