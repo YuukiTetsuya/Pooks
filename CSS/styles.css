@@ -166,7 +166,7 @@ footer {
 }
 
 .books-main-contents {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding-top: 50px;
 }
@@ -174,7 +174,6 @@ footer {
 .sub-contents-main {
   width: 40%;
   float: left;
-  text-align: center;
 }
 
 .sub-contents {
