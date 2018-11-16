@@ -16,6 +16,7 @@ header {
   height: 60px;
   background-color: white;
   padding-bottom: 15px;
+  border-bottom: 2px solid #eee;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -90,9 +91,14 @@ header p {
   background-color: #f7f7f7;
 }
 
-.main-contents h2 {
+.main-contents h1 {
   text-align: center;
   padding-bottom: 10px;
+}
+
+.main-contents h2 {
+  text-align: center;
+  padding-bottom: 12px;
 }
 
 .books-title {
@@ -157,4 +163,103 @@ footer {
 
 .contact a:visited {
   color: blue;
+}
+
+.books-main-contents {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.sub-contents {
+  float: left;
+  width: 50%;
+}
+
+.sub-title {
+  margin-bottom: 50px;
+}
+
+.btn {
+}
+
+.eva {
+}
+
+ul {
+  margin-top: 0px;
+  list-style: none;
+}
+
+.sub-title-li {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.sub-title-left {
+  float: left;
+}
+
+
+.btn-hatubai {
+  display: inline-block;
+  line-height: 35px;
+  padding-left: 10%;
+}
+
+.book-report {
+
+}
+
+.read-text {
+
+}
+
+
+.bad {
+  margin-bottom: 40px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+.star-ratings-css {
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 25px;
+  height: 25px;
+  width: 100px;
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #a2a2a2;
+}
+.star-ratings-css-top {
+  color: #e7711b;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.star-ratings-css-bottom {
+  padding: 0;
+  display: block;
+  z-index: 0;
+}
+.star-ratings-sprite {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  font-size: 0;
+  height: 21px;
+  line-height: 0;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 110px;
+}
+.star-ratings-sprite-rating {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  background-position: 0 100%;
+  float: left;
+  height: 21px;
+  display: block;
 }
