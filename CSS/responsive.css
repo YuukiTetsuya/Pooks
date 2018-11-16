@@ -12,9 +12,6 @@
 }
 
 @media (max-width: 670px){
-  .main-contents {
-    width: 100%;
-    }
 
   .book {
     width: 100%;
@@ -25,5 +22,9 @@
   }
   footer {
     text-align: center;
+  }
+
+  .bygenre-contents {
+    width: 25%;
   }
 }
