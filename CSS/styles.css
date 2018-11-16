@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
@@ -14,7 +18,7 @@ header {
 }
 
 .container {
-  width: 1370px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
