@@ -9,9 +9,25 @@
   .books-title {
     width: 100%;
   }
+
+  .main-contents {
+    height: 2000px;
+  }
+
+  .books-bygenre {
+    height: 500px;
+  }
+
+  .bygenre-contents {
+    width: 25%;
+  }
 }
 
 @media (max-width: 670px){
+
+  .main-contents {
+    height: 2500px;
+  }
 
   .book {
     width: 100%;
@@ -24,7 +40,11 @@
     text-align: center;
   }
 
+  .books-bygenre {
+    height: 700px;
+  }
+
   .bygenre-contents {
-    width: 25%;
+    width: 40%;
   }
 }
