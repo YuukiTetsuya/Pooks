@@ -110,6 +110,10 @@ header p {
   margin-right: 40px;
 }
 
+.book-link {
+  text-align: center;
+}
+
 .book-title {
   text-align: center;
   font-size: 12px;
