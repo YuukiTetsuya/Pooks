@@ -171,9 +171,15 @@ footer {
   padding-top: 50px;
 }
 
+.sub-contents-main {
+  width: 40%;
+  float: left;
+  text-align: center;
+}
+
 .sub-contents {
   float: left;
-  width: 50%;
+  width: 60%;
 }
 
 .sub-title {
@@ -219,10 +225,6 @@ ul {
 
 .bad {
   margin-bottom: 40px;
-}
-
-.amazon-image {
-  width: 100%;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
