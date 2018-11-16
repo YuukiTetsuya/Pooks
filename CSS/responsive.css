@@ -1,0 +1,10 @@
+/* タブレット向けレイアウト */
+
+/* ブレイクポイントが1000px以下のときのメディアクエリ */
+@media (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+}
