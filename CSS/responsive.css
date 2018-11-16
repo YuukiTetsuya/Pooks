@@ -21,6 +21,29 @@
   .bygenre-contents {
     width: 25%;
   }
+
+  .sub-contents-main {
+    width: 100%;
+  }
+
+  .sub-contents {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn-background {
+    display: inline-block;
+    text-align: center;
+    padding-right: 25px;
+  }
+
+  .sub-title-left {
+    float: none;
+  }
+
+  .btn-hatubai {
+    padding-left: 0px;
+  }
 }
 
 @media (max-width: 670px){
