@@ -256,7 +256,7 @@ input,textarea {
 .contact-submit {
   background-color: rgba(0,112,108,0.7);
   color: white;
-  transition: all 0.2s;
+  transition: all 0.3s;
   display: block;
   margin: 0 auto;
   border: rgba(0,112,108,07);
