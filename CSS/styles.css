@@ -31,7 +31,8 @@ header {
 .logo {
   float: left;
   width: 50px;
-  padding-top: 7px;
+  margin-top: 2px;
+
 }
 
 .logo:hover {
@@ -51,15 +52,15 @@ header {
 }
 
 header p {
-  padding: 5px 10px;
   color: white;
-  display: inline-block;
   text-align: right;
 }
 
 header a {
+  padding: 5px 10px;
   text-decoration: none;
   color: white;
+  display: block;
 }
 
 .top {
@@ -158,16 +159,24 @@ header a {
 
 footer {
   text-align: center;
-  height: 20px;
+  padding: 5px 0;
+  height: 70px;
+  border-top: 2px solid #eee;
+  background-color: rgba(0,112,108,0.8);
+}
+
+footer p {
+  color: black;
+  font-size: 12px;
 }
 
 .contact a {
-  color: #lue;
+  color: white;
   text-decoration: none;
 }
 
 .contact a:visited {
-  color: blue;
+  color: white;
 }
 
 .books-main-contents {
@@ -230,6 +239,15 @@ ul {
 
 .bad {
   margin-bottom: 40px;
+}
+
+.about-contents a {
+  text-decoration: none;
+  color: blue;
+}
+
+.about-contents a:visited {
+  color: blue;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
