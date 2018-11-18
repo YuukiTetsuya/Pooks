@@ -26,8 +26,8 @@
   }
 
   .sub-contents-main {
-    width: 100%;
-    text-align: center;
+    width: 105%;
+    margin: 0 auto;
   }
 
   .sub-contents {
@@ -77,6 +77,16 @@
 
   .bygenre-contents {
     width: 50%;
+  }
+
+  .sub-contents {
+    text-align: center;
+    width: 100&;
+  }
+
+  .sub-contents-main {
+    width: 110%;
+    text-align: center;
   }
 
 }
