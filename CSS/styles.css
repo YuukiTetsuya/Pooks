@@ -385,9 +385,15 @@ input,textarea {
   display: block;
 }
 
+<<<<<<< HEAD
 .ribbon-top {
     margin-top: 10px;
 }
+=======
+  .ribbon-top {
+  margin-top: 10px;
+  }
+>>>>>>> develop
 
 .ribbon20 {
     display: inline-block;
