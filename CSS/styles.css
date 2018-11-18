@@ -126,8 +126,16 @@ header a {
   text-align: center;
 }
 
-.book-link:hover {
-  border-bottom: 2px solid blue;
+.pink:hover {
+  border-bottom: 2px solid #ff69b4;
+}
+
+.yellow:hover {
+  border-bottom: 2px solid #FFFF99;
+}
+
+.blue:hover {
+  border-bottom: 2px solid #0000DD;
 }
 
 .book-title {
