@@ -27,7 +27,6 @@
 
   .sub-contents-main {
     text-align: center;
-    margin-left: 20px;
     width: 100%;
 }
 
@@ -82,11 +81,13 @@
 
   .sub-contents {
     text-align: center;
+    width: 100%;
+    margin-right: 40px;
   }
 
   .sub-contents-main {
-    margin-left: 20px;
     text-align: center;
+    width: 100%;
   }
 
 }
