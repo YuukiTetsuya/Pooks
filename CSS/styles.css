@@ -16,7 +16,7 @@ header {
   height: 60px;
   background-color: white;
   padding-bottom: 15px;
-  border-bottom: 1px groove #eee;
+  box-shadow: 0px 4px 3px -3px #404040;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -107,6 +107,14 @@ header a {
   padding-bottom: 12px;
 }
 
+.books {
+  color: #545454;
+}
+
+.books-bygenre {
+  color: #545454;
+}
+
 .books-title {
   width: 900px;
   margin: 0 auto;
@@ -114,6 +122,7 @@ header a {
 
 .books-contents {
   padding: 50px 0;
+  color: #545454;
 }
 
 .book {
@@ -251,6 +260,7 @@ li {
 
 .book-text {
   padding: 10px 0;
+  font-size: 18px;
 }
 
 .read-text {
@@ -316,6 +326,22 @@ input,textarea {
   text-align: center;
 }
 
+.ribbon-btn {
+  margin-top: 40px;
+  vertical-align: baseline;
+}
+
+.ribbon-btn-text {
+  padding: 10px;
+  background-color: pink;
+  border-radius: 15px;
+  color: white;
+}
+
+.ribbon-btn-img {
+  vertical-align: bottom;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 .star-ratings-css {
   unicode-bidi: bidi-override;
@@ -357,4 +383,71 @@ input,textarea {
   float: left;
   height: 21px;
   display: block;
+}
+
+.ribbon-top {
+  margin-top: 30px;
+}
+
+.ribbon20 {
+    display: inline-block;
+    position: relative;
+    height: 45px;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    -ms-transform: rotate(-10deg) skew(-17deg,4deg);
+    -webkit-transform: rotate(-10deg) skew(-17deg,4deg);
+    transform: rotate(-10deg) skew(-17deg,4deg);
+}
+
+.ribbon20:before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0,112,108,0.8);
+    bottom: -7px;
+    left: -15px;
+    z-index: -2;
+}
+
+.ribbon20:after{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0,112,108,0.8);
+    bottom: -10px;
+    right: -25px;
+    z-index: -2;
+}
+
+.ribbon20 h3 {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0 20px;
+    line-height: 45px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0,112,108,0.8);
+}
+.ribbon20 h3:before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 7px transparent;
+    border-right: solid 25px #c6821e;
+}
+.ribbon20 h3:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    right: 0;
+    border: none;
+    border-bottom: solid 10px transparent;
+    border-left: solid 15px #c6821e;
 }
