@@ -27,6 +27,7 @@
 
   .sub-contents-main {
     width: 100%;
+    text-align: center;
   }
 
   .sub-contents {
@@ -36,7 +37,6 @@
   }
 
   .books-main-contnts {
-    width: 100%;
   }
 
   .btn-background {
