@@ -16,7 +16,7 @@ header {
   height: 60px;
   background-color: white;
   padding-bottom: 15px;
-  border-bottom: 2px solid #eee;
+  border-bottom: 1px groove #eee;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -161,7 +161,7 @@ footer {
   text-align: center;
   padding: 5px 0;
   height: 70px;
-  border-top: 2px solid #eee;
+  border-top: 1px groove #eee;
   background-color: rgba(0,112,108,0.8);
 }
 
@@ -229,7 +229,13 @@ ul {
 }
 
 .book-report {
+  width: 100%;
+}
 
+.book-btn {
+}
+
+.book-text {
 }
 
 .read-text {
@@ -256,11 +262,12 @@ input,textarea {
 .contact-submit {
   background-color: rgba(0,112,108,0.7);
   color: white;
-  transition: all 0.2s;
+  transition: all 0.3s;
   display: block;
   margin: 0 auto;
   border: rgba(0,112,108,07);
-  box-shadow: 0 7px #cfcfcf;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
 }
 
 .contact-submit:hover {
@@ -288,6 +295,9 @@ input,textarea {
   color: blue;
 }
 
+.privacy {
+  text-align: center;
+}
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 .star-ratings-css {
   unicode-bidi: bidi-override;

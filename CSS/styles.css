@@ -16,7 +16,7 @@ header {
   height: 60px;
   background-color: white;
   padding-bottom: 15px;
-  border-bottom: 2px solid #eee;
+  border-bottom: 1px groove #eee;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -161,7 +161,7 @@ footer {
   text-align: center;
   padding: 5px 0;
   height: 70px;
-  border-top: 2px solid #eee;
+  border-top: 1px groove #eee;
   background-color: rgba(0,112,108,0.8);
 }
 
@@ -229,7 +229,16 @@ ul {
 }
 
 .book-report {
+  display: inline-block;
+}
 
+.book-btn {
+}
+
+.book-text {
+  margin-left: 10px;
+  font-size: 18px;
+  width: calc(100% - 35px);
 }
 
 .read-text {
@@ -292,7 +301,6 @@ input,textarea {
 .privacy {
   text-align: center;
 }
-
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 .star-ratings-css {
   unicode-bidi: bidi-override;

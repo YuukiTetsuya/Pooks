@@ -18,6 +18,9 @@
     height: 500px;
   }
 
+  .book-report {
+  }
+
   .bygenre-contents {
     width: 25%;
   }
@@ -28,8 +31,12 @@
 
   .sub-contents {
     margin-top: 40px;
-    width: 90%;
+    width: 100%;
     text-align: center;
+  }
+
+  .books-main-contnts {
+    width: 100%;
   }
 
   .btn-background {
@@ -71,4 +78,5 @@
   .bygenre-contents {
     width: 50%;
   }
+
 }
