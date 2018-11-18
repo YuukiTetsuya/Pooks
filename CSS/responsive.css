@@ -26,7 +26,6 @@
   }
 
   .sub-contents-main {
-    text-align: center;
     width: 100%;
 }
 
@@ -44,13 +43,7 @@
     padding-right: 25px;
   }
 
-  .sub-title-left {
-    float: none;
-  }
 
-  .btn-hatubai {
-    padding-left: 0px;
-  }
 }
 
 @media (max-width: 670px){

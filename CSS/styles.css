@@ -180,8 +180,7 @@ footer p {
 }
 
 .books-main-contents {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   padding-top: 50px;
 }
 
@@ -206,9 +205,9 @@ footer p {
 .eva {
 }
 
-ul {
-  margin-top: 0px;
+li {
   list-style: none;
+  margin: 0px;
 }
 
 .sub-title-li {
@@ -229,16 +228,17 @@ ul {
 }
 
 .book-report {
-  display: inline-block;
+  float: left;
+
 }
 
 .book-btn {
+  padding-top: 5px;
+  margin-right: 10px;
 }
 
 .book-text {
-  margin-left: 10px;
-  font-size: 18px;
-  width: calc(100% - 35px);
+  padding: 10px 0;
 }
 
 .read-text {
@@ -283,10 +283,12 @@ input,textarea {
   box-shadow: none;
 }
 
+.amazon-image {
+  padding-top: 10px;
+}
 
 
 .bad {
-  margin-bottom: 40px;
 }
 
 .about-contents a {
@@ -301,6 +303,7 @@ input,textarea {
 .privacy {
   text-align: center;
 }
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 .star-ratings-css {
   unicode-bidi: bidi-override;
