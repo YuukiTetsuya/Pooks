@@ -120,6 +120,10 @@ header a {
   margin: 0 auto;
 }
 
+.books-title img {
+  vertical-align: baseline;
+}
+
 .books-contents {
   padding: 50px 0;
   color: #545454;
@@ -140,7 +144,7 @@ header a {
 }
 
 .yellow:hover {
-  border-bottom: 2px solid #FFFF99;
+  border-bottom: 2px solid #ebd900;
 }
 
 .blue:hover {
@@ -160,16 +164,48 @@ header a {
   border-bottom: 4px solid #ff69b4;
 }
 
+.begin-img {
+  vertical-align: baseline;
+}
+
+.begin-2 {
+  vertical-align: text-bottom;
+}
+
 .expert {
-  border-bottom: 4px solid #FFFF99;
+  border-bottom: 4px solid #ebd900;
+}
+
+.expert-img {
+  vergical-align: baseline;
+}
+
+.expert-2 {
+  vertical-align: text-bottom;
 }
 
 .senior {
   border-bottom: 4px solid #0000DD;
 }
 
+.senior-img {
+  vertical-align: baseline;
+}
+
+.senior-2 {
+  vertical-align: text-bottom;
+}
+
 .bygenre {
   border-bottom: 4px solid #3CB371;
+}
+
+.bygenre-img {
+  vertical-align: baseline;
+}
+
+.bygenre-2 {
+  vertical-align: text-bottom;
 }
 
 .bygenre-contents {
@@ -327,7 +363,6 @@ input,textarea {
 
 .ribbon-btn {
   margin-top: 40px;
-  vertical-align: baseline;
 }
 
 .ribbon-btn-text {
