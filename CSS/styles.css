@@ -384,10 +384,9 @@ input,textarea {
   height: 21px;
   display: block;
 }
-
-.ribbon-top {
-  margin-top: 60px;
-}
+  .ribbon-top {
+  margin-top: 10px; 
+  }
 
 .ribbon20 {
     display: inline-block;
