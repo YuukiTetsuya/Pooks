@@ -33,7 +33,6 @@
   .sub-contents {
     margin-top: 40px;
     width: 100%;
-    text-align: center;
   }
 
   .books-main-contnts {
@@ -80,9 +79,7 @@
   }
 
   .sub-contents {
-    text-align: center;
     width: 100%;
-    margin-right: 40px;
   }
 
   .sub-contents-main {
