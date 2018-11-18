@@ -26,9 +26,10 @@
   }
 
   .sub-contents-main {
-    width: 105%;
-    margin: 0 auto;
-  }
+    text-align: center;
+    margin-left: 20px;
+    width: 100%;
+}
 
   .sub-contents {
     margin-top: 40px;
@@ -81,11 +82,10 @@
 
   .sub-contents {
     text-align: center;
-    width: 100&;
   }
 
   .sub-contents-main {
-    width: 110%;
+    margin-left: 20px;
     text-align: center;
   }
 
