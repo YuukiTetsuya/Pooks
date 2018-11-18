@@ -8,6 +8,7 @@
 
   .books-title {
     width: 100%;
+    font-size: 14px;
   }
 
   .main-contents {
@@ -47,6 +48,9 @@
     font-size: 16px;
   }
 
+  .btn {
+    font-size: 16px;
+  }
 
 }
 
@@ -84,7 +88,16 @@
     width: 100%;
   }
 
+  .btn {
+    font-size: 14px;
+  }
+
   .book-text {
     font-size: 14px;
   }
+
+  .begin-img {
+    display: block;
+  }
+
 }
