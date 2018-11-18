@@ -126,6 +126,10 @@ header a {
   text-align: center;
 }
 
+.book-link:hover {
+  border-bottom: 2px solid blue;
+}
+
 .book-title {
   text-align: center;
   font-size: 12px;
