@@ -441,7 +441,7 @@ input,textarea {
 .ribbon-top {
     margin-top: 10px;
     animation-name: my-fade-in;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
 .ribbon20 {
