@@ -303,12 +303,12 @@ li {
   padding-left: 10%;
 }
 
-.book-report {
+.book-report li {
   vertical-align: baseline;
 }
 
 .book-text {
-  vertical-align: text-bottom;
+  vertical-align: 8px;
   font-size: 18px;
   margin-left: 10px;
 }
