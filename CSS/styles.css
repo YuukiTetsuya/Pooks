@@ -31,9 +31,12 @@ header {
   float: left;
   width: 50px;
   margin-top: 5px;
+  transition: all 0.3s;
+  opacity: 0.8;
 }
 
 .logo:hover {
+  opacity: 1;
   cursor: pointer;
 }
 
