@@ -513,6 +513,7 @@ a.amazon-link {
   font-size: 150%;
   margin-top: 20px;
   color: #fff;
+  text-decoration: none;
   background-color: rgba(0,112,108,0.8);
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
