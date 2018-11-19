@@ -304,17 +304,18 @@ li {
 }
 
 .book-report {
-  float: left;
+  display: block;
+  vertical-align: baseline;
 }
 
+
 .book-btn {
-  padding-top: 5px;
-  margin-right: 10px;
 }
 
 .book-text {
-  padding: 11px 0;
+  vertical-align: text-bottom;
   font-size: 18px;
+  margin-left: 10px;
 }
 
 .read-text {
@@ -361,10 +362,6 @@ input,textarea {
 
 .amazon-image {
   padding-top: 10px;
-}
-
-
-.bad {
 }
 
 .about-contents a {
