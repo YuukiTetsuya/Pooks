@@ -12,7 +12,7 @@
   }
 
   .main-contents {
-    height: 3500px;
+    height: 4000px;
   }
 
   .books-bygenre {
@@ -57,7 +57,7 @@
 @media (max-width: 670px){
 
   .main-contents {
-    height: 4800px;
+    height: 5400px;
   }
 
   .book {
