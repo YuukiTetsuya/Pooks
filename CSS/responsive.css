@@ -6,13 +6,13 @@
     width: 25%;
   }
 
+  .main-contents {
+    height: 4000px;
+  }
+
   .books-title {
     width: 100%;
     font-size: 14px;
-  }
-
-  .main-contents {
-    height: 4000px;
   }
 
   .books-bygenre {
@@ -55,9 +55,8 @@
 }
 
 @media (max-width: 670px){
-
   .main-contents {
-    height: 5600px;
+  height: 5800px; 
   }
 
   .book {
