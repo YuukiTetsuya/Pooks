@@ -502,3 +502,30 @@ input,textarea {
     border-bottom: solid 10px transparent;
     border-left: solid 15px #c6821e;
 }
+
+a.amazon-link {
+  display: inline-block;
+  text-decoration: none;
+  height:60px;
+  width: 280px;
+  line-height: 60px;
+  font-size: 4em;
+  font-size: 150%;
+  margin-top: 20px;
+  color: #fff;
+  background-color: rgba(0,112,108,0.8);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 0 3px #c0c0c0;
+}
+
+a.amazon-link:hover{
+  background: #fff;
+  color: #2bb6c1;
+  border:solid 1px #2bb6c1;
+}
