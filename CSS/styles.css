@@ -388,7 +388,8 @@ input,textarea {
   padding: 10px;
   background-color: pink;
   border-radius: 15px;
-  color: white;
+  color: #ffffff;
+  font-weight: 500;
 }
 
 .ribbon-btn-img {
