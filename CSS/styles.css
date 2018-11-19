@@ -233,16 +233,15 @@ header p {
   text-align: center;
 }
 
-footer {
+#footer {
   text-align: center;
   padding: 5px 0;
   height: 70px;
   border-top: 1px groove #eee;
   background-color: rgba(0,112,108,0.8);
-  margin: 0;
 }
 
-footer p {
+#footer p {
   color: black;
   font-size: 12px;
 }
