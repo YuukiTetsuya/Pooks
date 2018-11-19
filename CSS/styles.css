@@ -30,7 +30,7 @@ header {
 .logo {
   float: left;
   width: 50px;
-  margin-top: 2px;
+  margin-top: 5px;
 }
 
 .logo:hover {
@@ -38,6 +38,7 @@ header {
 }
 
 .about {
+  display: block;
   float: right;
   background-color: rgba(0,112,108,0.8);
   border-radius: 6px;
@@ -51,10 +52,9 @@ header {
 
 header p {
   color: white;
-  text-align: right;
 }
 
-header a {
+.about-about {
   padding: 5px 10px;
   text-decoration: none;
   color: white;
