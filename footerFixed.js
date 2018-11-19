@@ -1,16 +1,16 @@
 /*--------------------------------------------------------------------------*
- *  
+ *
  *  footerFixed.js
- *  
- *  MIT-style license. 
- *  
+ *
+ *  MIT-style license.
+ *
  *  2007 Kazuma Nishihata [to-R]
  *  http://blog.webcreativepark.net
- *  
+ *
  *--------------------------------------------------------------------------*/
 
 new function(){
-	
+
 	var footerId = "footer";
 	//メイン
 	function footerFixed(){
@@ -32,11 +32,11 @@ new function(){
 			document.getElementById(footerId).style.top = (wh-fh-ft-1)+"px";
 		}
 	}
-	
+
 	//文字サイズ
 	function checkFontSize(func){
-	
-		//判定要素の追加	
+
+		//判定要素の追加
 		var e = document.createElement("div");
 		var s = document.createTextNode("S");
 		e.appendChild(s);
@@ -45,7 +45,7 @@ new function(){
 		e.style.top="0"
 		document.body.appendChild(e);
 		var defHeight = e.offsetHeight;
-		
+
 		//判定関数
 		function checkBoxSize(){
 			if(defHeight != e.offsetHeight){
@@ -55,7 +55,7 @@ new function(){
 		}
 		setInterval(checkBoxSize,1000)
 	}
-	
+
 	//イベントリスナー
 	function addEvent(elm,listener,fn){
 		try{
@@ -70,5 +70,5 @@ new function(){
 		checkFontSize(footerFixed);
 	});
 	addEvent(window,"resize",footerFixed);
-	
+
 }
