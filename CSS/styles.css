@@ -378,10 +378,12 @@ input,textarea {
 
 .ribbon-btn-text {
   padding: 10px;
-  background-color: pink;
+  background-color: #FF99CC;
   border-radius: 15px;
+  color: inherit;
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .ribbon-btn-img {
