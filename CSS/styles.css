@@ -380,11 +380,12 @@ input,textarea {
   padding: 10px;
   background-color: #FF99CC;
   border-radius: 15px;
-  color: inherit;
   color: #ffffff;
   font-weight: 600;
   font-size: 16px;
+  letter-spacing: 2;
 }
+
 
 .ribbon-btn-img {
   vertical-align: bottom;
