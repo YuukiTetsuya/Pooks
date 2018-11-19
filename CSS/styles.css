@@ -184,7 +184,7 @@ header p {
 }
 
 .begin-2 {
-  vertical-align: text-bottom;
+  vertical-align: top;
   margin-left: 5px;
 }
 
@@ -197,7 +197,7 @@ header p {
 }
 
 .expert-2 {
-  vertical-align: text-bottom;
+  vertical-align: top;
   margin-left: 5px;
 }
 
@@ -210,7 +210,7 @@ header p {
 }
 
 .senior-2 {
-  vertical-align: text-bottom;
+  vertical-align:top;
   margin-left: 5px;
 }
 
@@ -223,7 +223,7 @@ header p {
 }
 
 .bygenre-2 {
-  vertical-align: text-bottom;
+  vertical-align: top;
   margin-left: 5px;
 }
 
