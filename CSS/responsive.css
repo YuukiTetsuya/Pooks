@@ -56,11 +56,6 @@
 
 @media (max-width: 670px){
 
-  a.amazon-link {
-    display: block;
-    margin: 0 auto;
-  }
-
   .main-contents {
   height: 5800px;
   }
