@@ -1,9 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>HTML内でのPHPスクリプト - PHP入門</title>
+</head>
+<body>
+<h1><?php echo "タイトルだよ〜"; ?></h1>
 <?php
-$html = file_get_contents("http://www.amazon.co.jp/dp/4822242633");
-
-$dom = new DOMDocument();
-@$dom->loadHTML($html);
-$xml = simplexml_import_dom($dom);
-$ret = $xml->xpath('//span[@class="a-size-medium a-color-price offer-price a-text-normal"]');
-echo $ret[0];
+$str_hello = "HTML内で";
+echo "<p> $str_hello PHPスクリプトを表示してみた</p>";
 ?>
+</body>
+</html>
