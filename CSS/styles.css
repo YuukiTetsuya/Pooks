@@ -358,7 +358,6 @@ input,textarea {
 .amazon-image {
   padding-top: 10px;
   overflow: hidden;
-  background-color: #000;
 }
 
 .amazon-image img {
@@ -368,6 +367,7 @@ input,textarea {
 .amazon-image img:hover {
   transform: scale(1.1);
   transition-duration: 0.3s;
+  background-color: #000;
   opacity: 0.7;
 }
 
