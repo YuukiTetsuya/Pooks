@@ -67,8 +67,8 @@ backface-visibility:hidden;
 }
 
 .header-right {
-  -webkit-backface-visibility:hidden;
-  backface-visibility:hidden;
+  webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .top {
