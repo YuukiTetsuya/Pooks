@@ -147,7 +147,7 @@ header {
 }
 
 .book-link a:hover {
-    box-shadow: 0 0 3px #c0c0c0;
+    box-shadow: 0 0 5px #c0c0c0;
 }
 
 @keyframes my-fade-in {
