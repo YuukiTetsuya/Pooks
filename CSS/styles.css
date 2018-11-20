@@ -45,7 +45,6 @@ header {
   background-color: rgba(0,112,108,0.8);
   transition: all 0.3s;
   border-radius: 6px;
-  margin-top: 5px;
 }
 
 .header-right:hover {
@@ -55,8 +54,8 @@ header {
 
 .header-right a {
   color: white;
-  line-height: 33px;
-  padding: 5px 10px;
+  line-height: 50px;
+  padding: 0 10px;
   display: block;
   text-decoration: none;
 }
