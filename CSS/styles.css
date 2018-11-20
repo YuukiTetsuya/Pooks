@@ -402,9 +402,8 @@ input,textarea {
 }
 
 .your-favorite-contents {
-  margin: 0 30px;
+  text-align: center;
 }
-
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 .star-ratings-css {

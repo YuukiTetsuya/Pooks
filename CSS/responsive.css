@@ -52,6 +52,12 @@
     font-size: 16px;
   }
 
+  .your-favorite-title {
+    text-align: left;
+  }
+
+
+
 }
 
 @media (max-width: 670px){
@@ -113,10 +119,8 @@
 
   .your-favorite-title p {
     font-size: 20px;
-  }
-
-  .your-favorite-title {
     text-align: center;
   }
+
 
 }
