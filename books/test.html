@@ -1,0 +1,9 @@
+<?php
+$html = file_get_contents("http://www.amazon.co.jp/dp/4822242633");
+
+$dom = new DOMDocument();
+@$dom->loadHTML($html);
+$xml = simplexml_import_dom($dom);
+$ret = $xml->xpath('//span[@class="a-size-medium a-color-price offer-price a-text-normal"]');
+echo $ret[0];
+?>
