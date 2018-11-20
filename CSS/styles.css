@@ -146,6 +146,10 @@ header {
   text-align: center;
 }
 
+.book-link a:hover {
+    box-shadow: 0 0 3px #c0c0c0;
+}
+
 .pink:hover {
   border-bottom: 2px solid #ff69b4;
 }
