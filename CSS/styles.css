@@ -40,16 +40,12 @@ header {
   cursor: pointer;
 }
 
-.header-left {
--webkit-backface-visibility:hidden;
-backface-visibility:hidden;
-}
-
 .header-right {
   float: right;
   background-color: rgba(0,112,108,0.8);
   transition: all 0.3s;
   border-radius: 6px;
+  backface-visibility: hidden;
 }
 
 .header-right:hover {
@@ -66,8 +62,7 @@ backface-visibility:hidden;
   text-decoration: none;
 }
 
-.header-right {
-  webkit-backface-visibility: hidden;
+.header-left {
   backface-visibility: hidden;
 }
 
