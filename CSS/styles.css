@@ -150,6 +150,61 @@ header {
     box-shadow: 2px 3px 8px #c0c0c0;
 }
 
+.share-btn:visited {
+  color: white;
+}
+
+.share-btn {
+  text-decoration: none;
+  margin: 0 5px;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 35px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.sns-share i {
+  transition: all 0.7s;
+}
+
+.sns-share i:hover {
+  transform: rotateY(360deg);
+}
+
+.facebook {
+  background-color: #3B5998;
+}
+
+.line {
+  background-color: #00c300;
+}
+
+.hatena {
+  background-color: #008fde;
+}
+
+.sns-share > .hatena {
+  padding: 15px 13px;
+}
+
+.sns-share > .facebook {
+  padding: 15px 17px;
+}
+
+.sns-share > .line {
+  padding: 15px 17px;
+}
+
+/* Font Awesome hatena bookmark */
+.fa-hatena:before {
+	content: "B!";
+	font-family: Verdana;
+	font-weight: bold
+}
+
 @keyframes my-fade-in {
   from {
     opacity: 0;
