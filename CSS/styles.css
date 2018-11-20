@@ -167,6 +167,10 @@ header {
   background-color: #55acee;
 }
 
+.sns-share {
+  margin-top: 25px;
+}
+
 .sns-share i {
   transition: all 0.7s;
 }
