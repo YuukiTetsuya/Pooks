@@ -401,9 +401,10 @@ input,textarea {
   font-weight: bold;
 }
 
-.your-favorite-contents {
-  text-align: center;
+.your-favorite-title {
+  margin: 15px 30px;
 }
+
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 .star-ratings-css {

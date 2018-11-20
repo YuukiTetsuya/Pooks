@@ -53,7 +53,7 @@
   }
 
   .your-favorite-title {
-    text-align: left;
+    margin-left: 0;
   }
 
 
@@ -117,9 +117,13 @@
     margin-bottom: 30px;
   }
 
+  .your-favorite-title {
+    text-align: center;
+    margin: 0;
+  }
+
   .your-favorite-title p {
     font-size: 20px;
-    text-align: center;
   }
 
 
