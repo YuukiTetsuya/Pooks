@@ -357,6 +357,16 @@ input,textarea {
 
 .amazon-image {
   padding-top: 10px;
+  overflow: hidden;
+}
+
+.amazon-image img {
+  transition-duration: 0.3s;
+}
+
+.amazon-image img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
 }
 
 .about-contents a {
