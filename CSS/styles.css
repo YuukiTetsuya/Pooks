@@ -40,7 +40,7 @@ header {
   cursor: pointer;
 }
 
-.logo {
+.header-left {
 -webkit-backface-visibility:hidden;
 backface-visibility:hidden;
 }
