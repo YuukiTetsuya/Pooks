@@ -40,6 +40,11 @@ header {
   cursor: pointer;
 }
 
+.logo {
+-webkit-backface-visibility:hidden;
+backface-visibility:hidden;
+}
+
 .header-right {
   float: right;
   background-color: rgba(0,112,108,0.8);
@@ -59,6 +64,11 @@ header {
   padding: 0 10px;
   display: block;
   text-decoration: none;
+}
+
+.header-right {
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
 }
 
 .top {
