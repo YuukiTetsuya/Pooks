@@ -58,7 +58,8 @@
 
   a.amazon-link {
     display: block;
-    margin: auto;
+    margin: 0 auto;
+    margin-bottom: 100px;
   }
 
   .main-contents {
