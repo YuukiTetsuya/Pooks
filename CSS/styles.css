@@ -54,6 +54,7 @@ header {
 
 .header-right a {
   color: white;
+  font-size: 18px;
   line-height: 50px;
   padding: 0 10px;
   display: block;
