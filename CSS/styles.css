@@ -150,14 +150,6 @@ header {
     box-shadow: 0 0 3px #c0c0c0;
 }
 
-.pink:hover {
-  border-bottom: 2px solid #ff69b4;
-}
-
-.yellow:hover {
-  border-bottom: 2px solid #ebd900;
-}
-
 @keyframes my-fade-in {
   from {
     opacity: 0;
@@ -165,10 +157,6 @@ header {
   to {
     opacity: 1;
   }
-}
-
-.blue:hover {
-  border-bottom: 2px solid #0000DD;
 }
 
 .book-title {
