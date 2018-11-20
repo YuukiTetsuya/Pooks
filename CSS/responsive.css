@@ -82,7 +82,8 @@
   }
 
   .bygenre-contents {
-    width: 50%;
+    width: 5
+    0%;
   }
 
   .sub-contents {
@@ -112,6 +113,10 @@
 
   .your-favorite-title p {
     font-size: 20px;
+  }
+
+  .your-favorite-title {
+    text-align: center;
   }
 
 }
