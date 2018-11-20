@@ -32,23 +32,23 @@ header {
   float: left;
   width: 50px;
   transition: all 0.3s;
-  opacity: 1;
+  opacity: 0.88;
 }
 
 .logo:hover {
-  opacity: 0.8;
+  opacity: 1;
   cursor: pointer;
 }
 
 .header-right {
   float: right;
-  background-color: rgba(0,112,108,1);
+  background-color: rgba(0,112,108,0.8);
   transition: all 0.3s;
   border-radius: 6px;
 }
 
 .header-right:hover {
-  background-color: rgba(0,92,73,0.8);
+  background-color: rgba(0,92,73,1);
   cursor: pointer;
 }
 
