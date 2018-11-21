@@ -75,7 +75,7 @@
   }
 
   .main-contents {
-  height: 3400px;
+  height: 3200px;
   }
 
   #main-contents-view {
@@ -141,4 +141,10 @@
   }
 
 
+}
+
+@media (max-width: 500px){
+  .main-contents {
+  height: 3400px;
+  }
 }
