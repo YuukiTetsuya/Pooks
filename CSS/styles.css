@@ -103,6 +103,10 @@ header {
   background-color: #f7f7f7;
 }
 
+#main-contents-about {
+  height: 1100px;
+}
+
 .main-contents h1 {
   text-align: center;
   padding-bottom: 10px;

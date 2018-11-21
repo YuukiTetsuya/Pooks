@@ -9,23 +9,25 @@
     padding: 0 40px;
   }
 
-  .main-contents {
+  #main-contents-view {
+    height: 2200px;
   }
 
-  .books-title {
-    width: 100%;
-    font-size: 14px;
+  #main-contents-about {
+    height: 1200px;
   }
 
   .books-bygenre {
-    height: 500px;
   }
 
   .book-report {
   }
 
   .bygenre-contents {
-    width: 25%;
+  }
+
+  .books-title {
+    width: 100%;
   }
 
   .sub-contents-main {
@@ -35,9 +37,6 @@
   .sub-contents {
     margin-top: 40px;
     width: 100%;
-  }
-
-  .books-main-contnts {
   }
 
   .btn-background {
@@ -77,6 +76,14 @@
   height: 2400px;
   }
 
+  #main-contents-view {
+  height: 2600px;
+  }
+
+  #main-contents-about {
+    height: 1350px;
+  }
+
   .book {
     width: 50%;
   }
@@ -84,8 +91,8 @@
   .books-title {
     width: 100%;
   }
+
   footer {
-    text-align: center;
   }
 
   .books-bygenre {
@@ -97,12 +104,11 @@
   }
 
   .sub-contents {
-    width: 100%;
-  }
+    width: 100;
+}
 
   .sub-contents-main {
-    text-align: center;
-    width: 100%;
+
   }
 
   .btn {
