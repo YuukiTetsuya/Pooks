@@ -31,12 +31,9 @@ header {
 .logo {
   float: left;
   width: 50px;
-  transition: all 0.3s;
-  opacity: 0.88;
 }
 
 .logo:hover {
-  opacity: 1;
   cursor: pointer;
 }
 
@@ -201,6 +198,13 @@ header {
 
 .sns-share > .line {
   padding: 13px 15px;
+}
+
+.top-contents > .sns-share {
+  display: block;
+  margin-top: 40px;
+  animation-name: my-fade-in;
+  animation-duration: 3s;
 }
 
 /* Font Awesome hatena bookmark */
@@ -472,6 +476,9 @@ input,textarea {
   margin: 15px 30px;
 }
 
+.sns-toppage {
+
+}
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 .star-ratings-css {
