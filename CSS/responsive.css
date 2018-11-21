@@ -9,6 +9,10 @@
     padding: 0 40px;
   }
 
+  .main-contents {
+    height: 1800px;
+  }
+
   #main-contents-view {
     height: 2600px;
   }
