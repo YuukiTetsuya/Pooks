@@ -31,6 +31,7 @@ header {
 .logo {
   float: left;
   width: 50px;
+  opacity: 0.8;
 }
 
 .logo:hover {
@@ -85,13 +86,13 @@ header {
 .top-title {
   font-size: 90px;
   animation-name: my-fade-in;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
 .top-subtitle {
   font-size: 33px;
   animation-name: my-fade-in;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
 .main-contents {
@@ -160,6 +161,31 @@ header {
   border-radius: 35px;
 }
 
+.top-btn {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  display: inline-block;
+  border-radius: 25px;
+  background: rgba(85,172,238,1);
+  animation-name: my-fade-in;
+  animation-duration: 2s;
+}
+
+.top-btn:hover {
+  background: rgba(85,172,238,0.9);
+  cursor: pointer;
+}
+
+.top-btn span {
+  font-size: 18px;
+  vertical-align: text-bottom;
+}
+
+.top-btn > i {
+  margin: 0 5px;
+}
+
 .twitter {
   background-color: #55acee;
 }
@@ -203,8 +229,6 @@ header {
 .top-contents > .sns-share {
   display: block;
   margin-top: 40px;
-  animation-name: my-fade-in;
-  animation-duration: 3s;
 }
 
 /* Font Awesome hatena bookmark */
@@ -217,9 +241,11 @@ header {
 @keyframes my-fade-in {
   from {
     opacity: 0;
+    transform: translateY(50px);/* Y軸方向に50px */
   }
   to {
     opacity: 1;
+    transform: translateY(0);/* Y軸方向に0px */
   }
 }
 
