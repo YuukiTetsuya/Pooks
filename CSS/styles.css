@@ -91,6 +91,7 @@ header {
 
 .top-subtitle {
   font-size: 33px;
+  font-weight: bold;
   animation-name: my-fade-in;
   animation-duration: 2s;
 }
@@ -178,7 +179,9 @@ header {
 }
 
 .top-btn span {
-  font-size: 18px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
   vertical-align: text-bottom;
 }
 
