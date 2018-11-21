@@ -6,6 +6,10 @@
     width: 25%;
   }
 
+  .container {
+    padding: 0 40px;
+  }
+
   .main-contents {
     height: 4400px;
   }
@@ -61,6 +65,9 @@
 }
 
 @media (max-width: 670px){
+  .container {
+    padding: 0 15px; 
+  }
 
   a.amazon-link {
     display: block;
