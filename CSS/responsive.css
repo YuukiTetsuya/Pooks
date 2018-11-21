@@ -79,7 +79,7 @@
   }
 
   .main-contents {
-  height: 3400px;
+  height: 3200px;
   }
 
   #main-contents-view {
@@ -149,7 +149,7 @@
 
 @media (max-width: 400px){
   .main-contents {
-  height: 3500px;
+  height: 3300px;
   }
 
   footer {
