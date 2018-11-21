@@ -107,6 +107,14 @@ header {
   height: 1100px;
 }
 
+#main-contents-privacy {
+  height: 600px;
+}
+
+#main-contents-contact {
+  height: 800px;
+}
+
 .main-contents h1 {
   text-align: center;
   padding-bottom: 10px;
