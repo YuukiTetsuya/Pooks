@@ -137,8 +137,7 @@ header {
 
 .book {
   float: left;
-  width: 120px;
-  margin-right: 40px;
+  width: 20%;
 }
 
 .book-link {

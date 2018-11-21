@@ -3,7 +3,6 @@
 /* ブレイクポイントが1000px以下のときのメディアクエリ */
 @media (max-width: 1100px) {
   .book {
-    width: 25%;
   }
 
   .container {
@@ -80,7 +79,7 @@
   }
 
   .book {
-    width: 100%;
+    width: 50%;
   }
 
   .books-title {
