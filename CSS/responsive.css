@@ -147,4 +147,8 @@
   .main-contents {
   height: 3400px;
   }
+
+  footer {
+    margin: 0;
+  }
 }
