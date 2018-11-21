@@ -73,7 +73,7 @@
   }
 
   .main-contents {
-  height: 3300px;
+  height: 3500px;
   }
 
   #main-contents-view {
@@ -90,9 +90,6 @@
 
   .books-title {
     width: 100%;
-  }
-
-  footer {
   }
 
   .books-bygenre {
@@ -135,6 +132,10 @@
   .your-favorite-title p {
     font-size: 20px;
     margin-bottom: 30px;
+  }
+
+  footer {
+    margin: 0;
   }
 
 
