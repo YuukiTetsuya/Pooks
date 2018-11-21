@@ -106,6 +106,10 @@ header {
   background-color: #f7f7f7;
 }
 
+.main-contents-view {
+  height: 1800px;
+}
+
 #main-contents-about {
   height: 1100px;
 }
