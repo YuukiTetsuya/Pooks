@@ -57,7 +57,9 @@
     margin-left: 0;
   }
 
-
+  footer {
+    margin: auto;
+  }
 
 }
 
@@ -73,7 +75,7 @@
   }
 
   .main-contents {
-  height: 3500px;
+  height: 3400px;
   }
 
   #main-contents-view {
