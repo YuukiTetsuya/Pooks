@@ -56,9 +56,8 @@ header {
 }
 
 .header-right:hover {
-  background: #fff;
-  color: #2bb6c1;
-  border: solid 1px #2bb6c1;
+  background-color: rgba(0,92,73,1);
+  cursor: pointer;
 }
 
 .header-right a {
@@ -68,10 +67,6 @@ header {
   padding: 0 10px;
   display: block;
   text-decoration: none;
-}
-
-.header-right a:hover {
-  color: #2bb6c1;
 }
 
 .header-left {
