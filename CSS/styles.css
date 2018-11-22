@@ -356,7 +356,33 @@ footer p {
 .books-main-contents {
   width: 100%;
   height: 100%;
-  padding-top: 50px;
+  margin-top: 60px;
+}
+
+.category-title {
+  padding: 0 0 20px;
+}
+
+.category-title a {
+  text-decoration: none;
+  color: #545454;
+}
+
+.category-title a:visited {
+  color: #545454;
+}
+
+#category-text a {
+  text-decoration: none;
+  color: #545454;
+}
+
+#category-text a:visited {
+  color: #545454;
+}
+
+#category-title-pc {
+  display: none;
 }
 
 .sub-contents-main {

@@ -109,6 +109,20 @@
     margin-bottom: 30px;
   }
 
+  #category-title-pc {
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  #category-title-sumaho {
+    display: none;
+  }
+
+  .books-main-contents {
+    margin-top: 0;
+  }
+
 }
 
 @media (max-width: 400px){
