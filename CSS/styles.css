@@ -339,9 +339,10 @@ footer {
   height: 70px;
 }
 
-footer p {
+.copyright {
   color: black;
   font-size: 12px;
+  padding-top: 10px;
 }
 
 .contact a {
