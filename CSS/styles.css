@@ -451,6 +451,15 @@ li {
 
 .contact-btn {
   text-align: center;
+  font-size: 18px;
+}
+
+.contact-btn a {
+  color: #545454;
+}
+
+.contact-btn a:visited {
+  color: #545454;
 }
 
 .btn-button {
@@ -515,6 +524,13 @@ input,textarea {
 }
 
 .privacy {
+  text-align: center;
+}
+
+.privacy p {
+  font-size: 16px;
+  width: 80%;
+  display: inline-block;
   text-align: center;
 }
 

@@ -9,12 +9,6 @@
     padding: 0 40px;
   }
 
-  .books-bygenre {
-  }
-
-  .book-report {
-  }
-
   .bygenre-contents {
   }
 
@@ -47,6 +41,10 @@
 
   .your-favorite-title {
     margin-left: 0;
+  }
+
+  .contact-btn {
+    font-size: 16px;
   }
 
 
@@ -121,6 +119,18 @@
 
   .books-main-contents {
     margin-top: 0;
+  }
+
+  .contact-btn {
+    font-size: 14px;
+  }
+
+  .privacy p {
+    font-size: 14px;
+  }
+
+  .about-contents p {
+    font-size: 14px;
   }
 
 }
