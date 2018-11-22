@@ -143,6 +143,16 @@ header {
   color: #545454;
 }
 
+#books-padding {
+  padding: 20px 0;
+}
+
+#begin-padding {
+  padding: 50px 0 20px;
+}
+
+
+
 .book {
   float: left;
   width: 16%;
