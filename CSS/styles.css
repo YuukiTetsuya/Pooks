@@ -33,6 +33,7 @@ header {
   padding: 0 80px;
 }
 
+
 .logo {
   float: left;
   width: 50px;
@@ -363,9 +364,37 @@ footer {
   padding-top: 10px;
 }
 
+.contact {
+  position: relative;
+}
+
 .contact a {
   color: white;
   text-decoration: none;
+}
+
+.contact > .share-btn {
+  position: absolute;
+  right: 6%;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.contact > a > i {
+  transition: all 0.7s;
+}
+
+.contact > a > i:hover {
+  transform: rotateY(360deg);
+}
+
+.contact > .twitter {
+  display: inline-block;
+  background: rgba(85,172,238,1);
+}
+
+.contact > .twitter:hover {
+  background: rgba(85,172,238,0.9);
 }
 
 .contact a:visited {

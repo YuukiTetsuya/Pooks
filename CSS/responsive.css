@@ -47,7 +47,9 @@
     font-size: 16px;
   }
 
-
+  .contact > .share-btn {
+    right: 4.5%;
+  }
 }
 
 @media (max-width: 670px){
@@ -147,6 +149,10 @@
 
   #contact-page p {
     font-size: 16px;
+  }
+
+  .contact > .share-btn {
+    right: 2%;
   }
 }
 
