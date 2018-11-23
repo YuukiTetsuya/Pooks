@@ -160,13 +160,11 @@ header {
 }
 
 .book-link img{
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .book-link img:hover {
-  box-shadow: 0 3px 5px -1px; rgba(247,247,247,.2),0 6px 10px 0 rgba(247,247,247,.14)
-  0 1px 18px 0 rgba(247,247,247,.12);
-  background-color: #f7f7f7;
+  box-shadow: 0 0 4px #808080;
 }
 
 .share-btn:visited {
