@@ -128,11 +128,26 @@
   .privacy p {
     font-size: 14px;
   }
+  .about-contents {
+    padding: 10px;
+  }
 
   .about-contents p {
     font-size: 14px;
+    padding: 0 5px;
   }
 
+  .about-contents > .sns-share {
+    text-align: center;
+  }
+
+  .about-contents > .sns-share span {
+    font-size: 14px;
+  }
+
+  #contact-page p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 400px){
