@@ -159,8 +159,13 @@ header {
   text-align: center;
 }
 
+.book-link a{
+  transition: 0.3s;
+}
+
 .book-link a:hover {
-    box-shadow: 2px 3px 8px #c0c0c0;
+  box-shadow: 0 3px 5px -1px; rgba(247,247,247,.2),0 6px 10px 0 rgba(247,247,247,.14)
+  0 1px 18px 0 rgba(247,247,247,.12);
 }
 
 .share-btn:visited {
