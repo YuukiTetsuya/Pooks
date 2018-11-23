@@ -150,10 +150,6 @@
   #contact-page p {
     font-size: 16px;
   }
-
-  .contact > .share-btn {
-    right: 2%;
-  }
 }
 
 @media (max-width: 400px){
