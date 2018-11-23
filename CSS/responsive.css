@@ -156,4 +156,14 @@
     width: 25px;
   }
 
+  .about-image-contents img {
+    width: 304px;
+    height: 200px;
+  }
+
+  .about-image-contents iframe {
+    width: 304px;
+    height: 200px;
+  }
+
 }
