@@ -122,6 +122,14 @@ header {
   color: #545454;
 }
 
+.books a {
+  text-decoration: none;
+}
+
+.books a:visited{
+  color: #545454;
+}
+
 .books-bygenre {
   color: #545454;
 }
