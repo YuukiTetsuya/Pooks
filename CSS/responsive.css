@@ -176,4 +176,7 @@
     height: 200px;
   }
 
+  #pagetop {
+    padding-right: 5px;
+  }
 }
