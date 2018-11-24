@@ -434,14 +434,15 @@ footer {
   width: 50px;
   height: 53px;
   z-index: 10000;
+  color: silver;
 }
 
-#pagetop img {
-  width: 150%;
-  height: 0 auto;
+#pagetop i {
+  width: 100%;
+  height: auto;
   vertical-align: baseline;
-  border-radius: 10px;
 }
+
 
 #category-text a:visited {
   color: #545454;
