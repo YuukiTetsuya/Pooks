@@ -425,6 +425,24 @@ footer {
   color: #545454;
 }
 
+#pagetop {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  width: 50px;
+  height: 53px;
+  z-index: 10000;
+}
+
+#pagetop img {
+  width: 150%;
+  height: 0 auto;
+  vertical-align: baseline;
+  border-radius: 10px;
+}
+
 #category-text a:visited {
   color: #545454;
 }
