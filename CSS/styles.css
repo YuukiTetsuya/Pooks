@@ -148,8 +148,6 @@ header {
   padding: 50px 0 20px;
 }
 
-
-
 .book {
   float: left;
   width: 16%;
@@ -274,11 +272,11 @@ header {
 @keyframes my-fade-in {
   from {
     opacity: 0;
-    transform: translateY(50px);/* Y軸方向に50px */
+    transform: translateY(50px);
   }
   to {
     opacity: 1;
-    transform: translateY(0);/* Y軸方向に0px */
+    transform: translateY(0);
   }
 }
 
@@ -444,12 +442,6 @@ footer {
   margin-bottom: 50px;
 }
 
-.btn {
-}
-
-.eva {
-}
-
 li {
   list-style: none;
   margin: 0px;
@@ -480,10 +472,6 @@ li {
   vertical-align: 8px;
   font-size: 18px;
   margin-left: 10px;
-}
-
-.read-text {
-
 }
 
 .contact-btn {
@@ -645,10 +633,6 @@ input,textarea {
 
 .your-favorite-title {
   margin: 15px 30px;
-}
-
-.sns-toppage {
-
 }
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
