@@ -185,4 +185,9 @@
     height: 200px;
   }
 
+  #pagetop i {
+    width: 180%;
+    vertical-align: baseline;
+  }
+
 }
