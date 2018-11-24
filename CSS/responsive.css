@@ -156,15 +156,6 @@
     font-size: 16px;
   }
 
-  #pagetop {
-      padding-right: 15px;
-      font-size: 12px;
-  }
-
-  #pagetop i {
-    width: 140%;
-    vertical-align: baseline;
-  }
 }
 
 /* スマホ縦型向けのメディアクエリ */
@@ -185,9 +176,8 @@
     height: 200px;
   }
 
-  #pagetop i {
-    width: 180%;
-    vertical-align: baseline;
+  #pagetop {
+    width: 10%;
   }
 
 }

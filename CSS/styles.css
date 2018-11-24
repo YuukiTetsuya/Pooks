@@ -427,14 +427,14 @@ footer {
 
 #pagetop {
   position: fixed;
+  z-index: 10000;
+  color: silver;
   right: 0;
   bottom: 0;
   padding-right: 25px;
   padding-bottom: 25px;
   width: 50px;
   height: 53px;
-  z-index: 10000;
-  color: silver;
 }
 
 #pagetop i {
@@ -442,7 +442,6 @@ footer {
   height: auto;
   vertical-align: baseline;
 }
-
 
 #category-text a:visited {
   color: #545454;
