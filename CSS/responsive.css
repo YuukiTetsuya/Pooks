@@ -1,7 +1,5 @@
 /* タブレット端末向けのメディアクエリ */
 @media (max-width: 1100px) {
-  .book {
-  }
 
   .container {
     padding: 0 40px;
@@ -65,6 +63,12 @@
 
   .book {
     width: 50%;
+  }
+
+  .book-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .books-title {
