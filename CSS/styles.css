@@ -120,9 +120,11 @@ header {
 
 .books {
   color: #545454;
+  text-decoration: none;
 }
 
 .books a {
+  color: #545454;
   text-decoration: none;
 }
 
@@ -641,6 +643,15 @@ input,textarea {
 
 .your-favorite-title {
   margin: 15px 30px;
+}
+
+.your-favorite-contents a {
+  color: #545454;
+  text-decoration: none;
+}
+
+.your-favorite-contents a:visited {
+  color: #545454;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
