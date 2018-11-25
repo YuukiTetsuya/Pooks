@@ -12,7 +12,7 @@
 // 中級者向けの本表示リスト
 
   var expert_lists=[
-  "<div class='book'><div class='book-link pink'><a href='kyoyo.html'><img src='../image/kyoyo2.jpg'><p class='book-title'>教養としてのプログラミング講座</p><p class='book-title'>¥842</p></a></div></div>",
+  "<div class='book'><div class='book-link pink'><a href='nyumongit.html'><img src='../image/nyumongit2.jpg'><p class='book-title'>入門Git</p><p class='book-title'>¥1〜</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='aidelia.html'><img src='../image/aidelia2.jpg'><p class='book-title'>プログラミングをはじめよう</p><p class='book-title'>¥1.123〜</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='korekara.html'><img src='../image/korekara2.jpg'><p class='book-title'>これからはじめる HTML & CSSの本</p><p class='book-title'>¥2,138〜</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='dokugakupro.html'><img src='../image/dokugakupro2.jpg'><p class='book-title'>Python言語の基本から仕事のやり方まで</p><p class='book-title'>¥2,200</p></a></div></div>",
