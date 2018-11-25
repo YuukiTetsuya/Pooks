@@ -6,7 +6,7 @@
   "<div class='book'><div class='book-link pink'><a href='korekara.html'><img src='../image/korekara2.jpg'><p class='book-title'>これからはじめる HTML & CSSの本</p><p class='book-title'>¥2,138〜</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='dokugakupro.html'><img src='../image/dokugakupro2.jpg'><p class='book-title'>Python言語の基本から仕事のやり方まで</p><p class='book-title'>¥2,200</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='3stepruby.html'><img src='../image/3stepruby2.jpg'><p class='book-title'>３ステップでしっかり学ぶRuby入門</p><p class='book-title'>¥2,570〜</p></a></div></div>",
-  "<div class='book'><div class='book-link pink'><a href='3stepruby.html'><img src='../image/3stepruby2.jpg'><p class='book-title'>３ステップでしっかり学ぶRuby入門</p><p class='book-title'>¥2,570〜</p></a></div></div>"
+  "<div class='book'><div class='book-link pink'><a href='sukkirijava.html'><img src='../image/sukkirijava2.jpg'><p class='book-title'>スッキリわかるJava入門</p><p class='book-title'>¥2,376〜</p></a></div></div>"
   ];
 
 // 中級者向けの本表示リスト

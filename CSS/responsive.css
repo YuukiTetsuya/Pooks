@@ -50,6 +50,12 @@
   .contact > .share-btn {
     right: 4.5%;
   }
+
+  .book-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }
 
 /* スマホ横型向けのメディアクエリ */
@@ -67,12 +73,6 @@
 
   .book {
     width: 50%;
-  }
-
-  .book-title {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
 
   .books-title {
