@@ -2,7 +2,7 @@
 
   var begin_lists=[
   "<div class='book'><div class='book-link pink'><a href='books/kyoyo.html'><img src='image/kyoyo2.jpg'><p class='book-title'>教養としてのプログラミング講座</p><p class='book-title'>¥842</p></a></div></div>",
-  "<div class='book'><div class='book-link pink'><a href='books/aidelia.html'><img src='image/aidelia2.jpg'><p class='book-title'>プログラミングをはじめよう</p><p class='book-title'>¥1.123〜</p></a></div></div>",
+  "<div class='book'><div class='book-link pink'><a href='books/aidelia.html'><img src='image/aidelia2.jpg'><p class='book-title'>プログラミングをはじめよう</p><p class='book-title'>¥1,123〜</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='books/korekara.html'><img src='image/korekara2.jpg'><p class='book-title'>これからはじめる HTML & CSSの本</p><p class='book-title'>¥2,138〜</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='books/dokugakupro.html'><img src='image/dokugakupro2.jpg'><p class='book-title'>Python言語の基本から仕事のやり方まで</p><p class='book-title'>¥2,200</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='books/3stepruby.html'><img src='image/3stepruby2.jpg'><p class='book-title'>３ステップでしっかり学ぶRuby入門</p><p class='book-title'>¥2,570〜</p></a></div></div>",
@@ -24,7 +24,7 @@
 // 上級者向けの本表示リスト
 
   var senior_lists=[
-  "<div class='book'><div class='book-link pink'><a href='books/kyoyo.html'><img src='image/kyoyo2.jpg'><p class='book-title'>教養としてのプログラミング講座</p><p class='book-title'>¥842</p></a></div></div>",
+  "<div class='book'><div class='book-link pink'><a href='books/modernc.html'><img src='image/modernc2.jpg'><p class='book-title'>モダンC言語プログラミング</p><p class='book-title'>¥2,177</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='books/aidelia.html'><img src='image/aidelia2.jpg'><p class='book-title'>プログラミングをはじめよう</p><p class='book-title'>¥1.123〜</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='books/korekara.html'><img src='image/korekara2.jpg'><p class='book-title'>これからはじめる HTML & CSSの本</p><p class='book-title'>¥2,138〜</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='books/dokugakupro.html'><img src='image/dokugakupro2.jpg'><p class='book-title'>Python言語の基本から仕事のやり方まで</p><p class='book-title'>¥2,200</p></a></div></div>",

@@ -651,6 +651,16 @@ input,textarea {
   letter-spacing: 2;
 }
 
+.ribbon-btn-text-senior {
+  padding: 10px;
+  background-color: #0000DD;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2;
+}
+
 
 .ribbon-btn-img {
   vertical-align: bottom;
@@ -668,6 +678,10 @@ input,textarea {
 
 #expert-price {
   color: #ebd900;
+}
+
+#senior-price {
+  color: #0000dd;
 }
 
 .your-favorite-title {
@@ -806,6 +820,26 @@ input,textarea {
   border: none;
   border-bottom: solid 10px transparent;
   border-left: solid 15px #ebd900;
+}
+
+#senior-ribbon h3:before{
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 7px transparent;
+  border-right: solid 25px #0000DD;
+}
+
+#senior-ribbon h3:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  right: 0;
+  border: none;
+  border-bottom: solid 10px transparent;
+  border-left: solid 15px #0000DD;
 }
 
 a.amazon-link {
