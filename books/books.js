@@ -25,11 +25,11 @@
 
   var senior_lists=[
   "<div class='book'><div class='book-link pink'><a href='modernc.html'><img src='../image/modernc2.jpg'><p class='book-title'>モダンC言語プログラミング</p><p class='book-title'>¥2,177〜</p></a></div></div>",
-  "<div class='book'><div class='book-link pink'><a href='aidelia.html'><img src='../image/aidelia2.jpg'><p class='book-title'>プログラミングをはじめよう</p><p class='book-title'>¥1.123〜</p></a></div></div>",
-  "<div class='book'><div class='book-link pink'><a href='korekara.html'><img src='../image/korekara2.jpg'><p class='book-title'>これからはじめる HTML & CSSの本</p><p class='book-title'>¥2,138〜</p></a></div></div>",
-  "<div class='book'><div class='book-link pink'><a href='dokugakupro.html'><img src='../image/dokugakupro2.jpg'><p class='book-title'>Python言語の基本から仕事のやり方まで</p><p class='book-title'>¥2,200</p></a></div></div>",
-  "<div class='book'><div class='book-link pink'><a href='3stepruby.html'><img src='../image/3stepruby2.jpg'><p class='book-title'>３ステップでしっかり学ぶRuby入門</p><p class='book-title'>¥2,570〜</p></a></div></div>",
-  "<div class='book'><div class='book-link pink'><a href='3stepruby.html'><img src='../image/3stepruby2.jpg'><p class='book-title'>３ステップでしっかり学ぶRuby入門</p><p class='book-title'>¥2,570〜</p></a></div></div>"
+  "<div class='book'><div class='book-link pink'><a href='cciemondai.html'><img src='../image/cciemondai2.jpg'><p class='book-title'>徹底攻略 Cisco CCIE Routing & Switching 筆記試験対策問題</p><p class='book-title'>¥5,995〜</p></a></div></div>",
+  "<div class='book'><div class='book-link pink'><a href='swiftpocket.html'><img src='../image/swiftpocket2.jpg'><p class='book-title'>[改訂新版]Swiftポケットリファレンス</p><p class='book-title'>¥2,880〜</p></a></div></div>",
+  "<div class='book'><div class='book-link pink'><a href='javaheikou.html'><img src='../image/javaheikou2.jpg'><p class='book-title'>Java並行処理プログラミング</p><p class='book-title'>¥3,000</p></a></div></div>",
+  "<div class='book'><div class='book-link pink'><a href='gonyumon.html'><img src='../image/gonyumon2.jpg'><p class='book-title'>Go言語プログラミング実践入門</p><p class='book-title'>¥3,400〜</p></a></div></div>",
+  "<div class='book'><div class='book-link pink'><a href='objectivecsyokai.html'><img src='../image/objectivecsyokai2.jpg'><p class='book-title'>詳解 Objective-C 2.0 第3版</p><p class='book-title'>¥3,672〜</p></a></div></div>"
   ];
 
 // ランダム表示のプログラム
