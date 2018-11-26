@@ -13,9 +13,9 @@
 
   var expert_lists=[
   "<div class='book'><div class='book-link pink'><a href='nyumongit.html'><img src='../image/nyumongit2.jpg'><p class='book-title'>入門Git</p><p class='book-title'>¥1〜</p></a></div></div>",
-  "<div class='book'><div class='book-link pink'><a href='aidelia.html'><img src='../image/aidelia2.jpg'><p class='book-title'>プログラミングをはじめよう</p><p class='book-title'>¥1.123〜</p></a></div></div>",
-  "<div class='book'><div class='book-link pink'><a href='korekara.html'><img src='../image/korekara2.jpg'><p class='book-title'>これからはじめる HTML & CSSの本</p><p class='book-title'>¥2,138〜</p></a></div></div>",
-  "<div class='book'><div class='book-link pink'><a href='dokugakupro.html'><img src='../image/dokugakupro2.jpg'><p class='book-title'>Python言語の基本から仕事のやり方まで</p><p class='book-title'>¥2,200</p></a></div></div>",
+  "<div class='book'><div class='book-link pink'><a href='tetteijs.html'><img src='../image/tetteijs2.jpg'><p class='book-title'>徹底マスター JavaScriptの教科書</p><p class='book-title'>¥2,980〜</p></a></div></div>",
+  "<div class='book'><div class='book-link pink'><a href='reactstart.html'><img src='../image/reactstart2.jpg'><p class='book-title'>React Native+Expoではじめるスマホアプリ開発</p><p class='book-title'>¥3,880〜</p></a></div></div>",
+  "<div class='book'><div class='book-link pink'><a href='perfectruby.html'><img src='../image/perfectruby2.jpg'><p class='book-title'>改訂2版 パーフェクトRuby</p><p class='book-title'>¥3,521</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='3stepruby.html'><img src='../image/3stepruby2.jpg'><p class='book-title'>３ステップでしっかり学ぶRuby入門</p><p class='book-title'>¥2,570〜</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='3stepruby.html'><img src='../image/3stepruby2.jpg'><p class='book-title'>３ステップでしっかり学ぶRuby入門</p><p class='book-title'>¥2,570〜</p></a></div></div>"
   ];
