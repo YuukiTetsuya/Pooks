@@ -16,8 +16,8 @@
   "<div class='book'><div class='book-link pink'><a href='books/tetteijs.html'><img src='image/tetteijs2.jpg'><p class='book-title'>徹底マスター JavaScriptの教科書</p><p class='book-title'>¥2,980〜</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='books/reactstart.html'><img src='image/reactstart2.jpg'><p class='book-title'>React Native+Expoではじめるスマホアプリ開発</p><p class='book-title'>¥3,880〜</p></a></div></div>",
   "<div class='book'><div class='book-link pink'><a href='books/perfectruby.html'><img src='image/perfectruby2.jpg'><p class='book-title'>改訂2版 パーフェクトRuby</p><p class='book-title'>¥3,521</p></a></div></div>",
-  "<div class='book'><div class='book-link pink'><a href='books/3stepruby.html'><img src='image/3stepruby2.jpg'><p class='book-title'>３ステップでしっかり学ぶRuby入門</p><p class='book-title'>¥2,570〜</p></a></div></div>",
-  "<div class='book'><div class='book-link pink'><a href='books/3stepruby.html'><img src='image/3stepruby2.jpg'><p class='book-title'>３ステップでしっかり学ぶRuby入門</p><p class='book-title'>¥2,570〜</p></a></div></div>"
+  "<div class='book'><div class='book-link pink'><a href='books/sqlbigdata.html'><img src='image/sqlbigdata2.jpg'><p class='book-title'>ビッグデータ分析・活用のためのSQLレシピ</p><p class='book-title'>¥3,800〜</p></a></div></div>",
+  "<div class='book'><div class='book-link pink'><a href='books/rails5app.html'><img src='image/rails5app2.jpg'><p class='book-title'>Ruby on Rails 5 アプリケーションプログラミング</p><p class='book-title'>¥3,888</p></a></div></div>"
   ];
 
 
