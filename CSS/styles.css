@@ -38,6 +38,18 @@ blockquote {
   padding: 0;
 }
 
+blockquote a {
+  color: #545454;
+}
+
+blockquote a:hover {
+  text-decoration: none;
+}
+
+blockquote a:visited {
+  color: #545454;
+}
+
 .logo {
   float: left;
   width: 50px;
@@ -303,6 +315,21 @@ blockquote {
   border-bottom: 4px solid #ff69b4;
 }
 
+.category a {
+  color: #545454;
+}
+
+.category a:hover {
+  color: #545454;
+  text-decoration: none;
+}
+
+#category-logo img {
+  width: 150px;
+  height: 120px;
+}
+
+
 .begin-img {
   vertical-align: baseline;
 }
@@ -405,6 +432,10 @@ footer {
   color: blue;
 }
 
+#category-top {
+  margin-top: 0;
+}
+
 .books-main-contents {
   width: 100%;
   height: 100%;
@@ -444,6 +475,38 @@ footer {
   opacity: 0.8;
 }
 
+/*全体*/
+.hidden_box {
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+/*ボタン装飾*/
+.hidden_box label {
+    cursor :pointer;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
 #category-text a:visited {
   color: #545454;
 }
@@ -467,9 +530,13 @@ footer {
   margin-bottom: 50px;
 }
 
+#category-page-title {
+  margin-bottom: 30px;
+}
+
 li {
   list-style: none;
-  margin: 0px;
+  margin: 0;
 }
 
 .sub-title-li {
@@ -661,6 +728,15 @@ input,textarea {
   letter-spacing: 2;
 }
 
+.ribbon-btn-text-bygenre {
+  padding: 10px;
+  background-color: #3CB371;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2;
+}
 
 .ribbon-btn-img {
   vertical-align: bottom;
@@ -840,6 +916,26 @@ input,textarea {
   border: none;
   border-bottom: solid 10px transparent;
   border-left: solid 15px #0000DD;
+}
+
+#bygenre-ribbon h3:before{
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 7px transparent;
+  border-right: solid 25px #3CB371;
+}
+
+#bygenre-ribbon h3:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  right: 0;
+  border: none;
+  border-bottom: solid 10px transparent;
+  border-left: solid 15px #3CB371;
 }
 
 a.amazon-link {

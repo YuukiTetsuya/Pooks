@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>Node.js | Pooks</title>
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <link rel="stylesheet" href="../CSS/responsive.css">
+  <meta name="viewport" content="Pooks, initial-scale=1.0">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta property="og:title" content="Node.js | Pooks">
+  <meta property="og:description" content="一言で言うとアツいJavaScriptです。
+  通常、JavaScriptはユーザーのブラウザで動作するプログラミング言語ですが、Node.jsはサーバー側で動作するJavaScriptであり、Web業界ではかなり注目されています。">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@pooks_b">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://yuukitetsuya.github.io/Pooks/books/nodejs.html">
+  <meta property="og:image" content="https://yuukitetsuya.github.io/Pooks/image/nodejs.png">
+  <meta property="og:locale" content="ja_JP">
+  <script src="../jquery-3.3.1.min.js"></script>
+  <script src="../slide.js"></script>
+  <script src="books.js"></script>
+</head>
+
+<!-- body情報 -->
+<body>
+
+<!-- ヘッダー（上部分） -->
+<header>
+  <div class="container">
+    <div class="header-left">
+      <a href="../index.html"><img src="../image/logo.png" alt="logo" class="logo"></a>
+    </div>
+    <div class="header-right">
+      <a href="../about.html" class="about-about">About</a>
+    </div>
+  </div>
+</header>
+
+
+<!-- メインコンテンツ -->
+<main>
+
+<div class="main-contents" id="main-contents-view">
+
+<!-- 本のタイトル -->
+  <div class="container">
+      <div class="books-contents">
+        <div class="books-title">
+          <h2 class="bygenre" id="category-logo"><span class="begin-img-2"></span><span class="begin-2"><img src="../image/nodejs.png"></span></h2>
+        </div>
+
+        <div class="books-main-contents" id="category-top">
+
+          <div class="sub-contents-main">
+            <div class="category-title" id="category-title-pc">
+              カテゴリ <a href="#">Web系</a> > <a href="nodejs.html">Node.js</a>
+            </div>
+            <div class="sub-title">
+              <div class="ribbon-top">
+                <div class="ribbon20" id="bygenre-ribbon">
+                <h3>こんな方にオススメ！</h3>
+                </div>
+                <div class="ribbon-btn"><img class="ribbon-btn-img" src="../image/ramp4.png" alt="ボタン">
+                  <span class="ribbon-btn-text-bygenre">JSをサーバーサイドで使いたい</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="sub-contents">
+              <div class="sub-title" id="category-title-sumaho">
+                <li class="btn" id="category-text">カテゴリ <a href="#">Web系</a> > <a href="nodejs.html">Node.js</a></li>
+              </div>
+              <div class="sub-title" id="category-page-title">
+                <div class="hidden_box">
+                <label for="label1"><li class="sub-title-li"><i class="fas fa-check-square"></i> Node.jsとは？</li></label>
+                <input type="checkbox" id="label1"/>
+                <div class="hidden_show">
+                <li class="btn">
+                    <blockquote site="https://liginc.co.jp/web/programming/node-js/85318">
+                      <p>一言で言うとアツいJavaScriptです。
+                      通常、JavaScriptはユーザーのブラウザで動作するプログラミング言語ですが、Node.jsはサーバー側で動作するJavaScriptであり、Web業界ではかなり注目されています。大量の処理に対応するために、ノンブロッキングI/Oというモデルを採用しています。
+                      例えば、データベースから大量の情報を取得してWebページ上に表示をする処理をおこなう場合、通常はデータベースへアクセスしている時間に待ち時間（ブロック）が発生するため、ページの表示が遅くなってしまいます。
+                      ノンブロッキングI/Oでは非同期処理をおこなうことで、データベースへのアクセスとWebページの表示を別々におこなってくれて、ストレスなくページの表示ができます。
+                      また、Node.jsでは、Socket.ioというリアルタイムな通信を実現するライブラリを扱うことができます。この大量のアクセスに対応する仕組みと、リアルタイムな通信が注目されて、ソーシャルゲーム界隈やチャットサービスなど、いろいろな場面で利用されています。
+                      <p>出展：<a href="https://liginc.co.jp/web/programming/node-js/85318" target="_blank">Node.jsとは</a></p>
+                      </p>
+                    </blockquote>
+
+                </li>
+                </div>
+                </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+
+        <!-- 関連本の紹介 -->
+          <div class="your-favorite-contents">
+            <div class="your-favorite-title">
+              <p class="sub-title-li">Node.jsの関連本</p>
+            </div>
+                <script type="text/javascript">nodejs_display();</script>
+
+          </div>
+
+      </div>
+
+      </div>
+
+      </div>
+
+
+    </div>
+
+</main>
+
+<!-- 著作権情報 -->
+<footer>
+  <div class="contact">
+    <a href="../privacypolicy.html">プライバシーポリシー</a>
+    <a href="../contact.html">お問い合わせ</a>
+  </div>
+  <div class="copyright">
+    ©️ 2018 Pooks All Rights Reserved.
+  </div>
+  <a id="pagetop" href="#"><i class="fas fa-arrow-circle-up fa-2x"></i></a>
+</footer>
+
+<script type="text/Node.js">
+(function(a,b,c,d,e,f,g){
+e='//d.nakanohito.jp/ua/uwa.js';
+a['UlGlobalObject']=d;a[d]=a[d]||function(){(a[d].q=a[d].q||[]).push(arguments)};
+a[d].l=1*new Date();
+f=b.createElement(c),g=b.getElementsByTagName(c)[0];
+f.async=1;f.src=e;g.parentNode.insertBefore(f,g)
+})(window,document,'script','_uao');
+
+_uao('init', '6016821', {oem_id: 1,fpf: true});
+_uao('set', 'lg_id', '');
+_uao('send', 'pv');
+</script>
+  </body>
+</html>

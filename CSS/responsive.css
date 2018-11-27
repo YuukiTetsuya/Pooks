@@ -56,6 +56,10 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+
+  .hidden_box {
+      margin-bottom: 0;
+  }
 }
 
 /* スマホ横型向けのメディアクエリ */
@@ -101,6 +105,14 @@
   }
 
   .begin-img-2 {
+    display: block;
+  }
+
+  .expert-img {
+    display: block;
+  }
+
+  .senior-img {
     display: block;
   }
 
@@ -182,5 +194,10 @@
 
   #pagetop {
     padding-right: 8px;
+  }
+
+  #category-logo img {
+    width: 120px;
+    height: 100px;
   }
 }

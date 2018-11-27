@@ -32,6 +32,24 @@
   "<div class='book'><div class='book-link pink'><a href='objectivecsyokai.html'><img src='../image/objectivecsyokai2.jpg'><p class='book-title'>詳解 Objective-C 2.0 第3版</p><p class='book-title'>¥3,672〜</p></a></div></div>"
   ];
 
+  // HTML&CSSの本表示リスト
+
+  var html_lists=[
+  "<div class='book'><div class='book-link pink'><a href='korekara.html'><img src='../image/korekara2.jpg'><p class='book-title'>これからはじめる HTML & CSSの本</p><p class='book-title'>¥2,138〜</p></a></div></div>"
+    ];
+
+  // JavaScriptの本表示リスト
+
+  var javascript_lists=[
+      "<div class='book'><div class='book-link pink'><a href='tetteijs.html'><img src='../image/tetteijs2.jpg'><p class='book-title'>徹底マスター JavaScriptの教科書</p><p class='book-title'>¥2,980〜</p></a></div></div>"
+    ];
+
+  // Reactの本表示リスト
+
+  var react_lists=[
+        "<div class='book'><div class='book-link pink'><a href='reactstart.html'><img src='../image/reactstart2.jpg'><p class='book-title'>React Native+Expoではじめるスマホアプリ開発</p><p class='book-title'>¥3,880〜</p></a></div></div>"
+    ];
+
 // ランダム表示のプログラム
 
 function begin_random(){
@@ -50,6 +68,24 @@ function senior_random(){
   var rNo = Math.floor(Math.random() * senior_lists.length);
   document.write(senior_lists[rNo]);
   senior_lists.splice(rNo,1);
+}
+
+function html_random(){
+  var rNo = Math.floor(Math.random() * html_lists.length);
+  document.write(html_lists[rNo]);
+  html_lists.splice(rNo,1);
+}
+
+function javascript_random(){
+  var rNo = Math.floor(Math.random() * javascript_lists.length);
+  document.write(javascript_lists[rNo]);
+  javascript_lists.splice(rNo,1);
+}
+
+function react_random(){
+  var rNo = Math.floor(Math.random() * react_lists.length);
+  document.write(react_lists[rNo]);
+  react_lists.splice(rNo,1);
 }
 
 // 表示用関数
@@ -75,6 +111,30 @@ function senior_display(){
   var count = 1;
   while(count <= 6){
     senior_random();
+    count++;
+  }
+}
+
+function html_display(){
+  var count = 1;
+  while(count <= 1){
+    html_random();
+    count++;
+  }
+}
+
+function js_display(){
+  var count = 1;
+  while(count <= 1){
+    javascript_random();
+    count++;
+  }
+}
+
+function react_display(){
+  var count = 1;
+  while(count <= 1){
+    react_random();
     count++;
   }
 }
