@@ -325,8 +325,8 @@ blockquote a:visited {
 }
 
 #category-logo img {
-  width: 150px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
 }
 
 
@@ -424,12 +424,12 @@ footer {
 }
 
 #contact-page a {
-  text-decoration: none;
   color: blue;
 }
 
-#contact-page a:visited {
+#contact-page a:hover {
   color: blue;
+  text-decoration: none;
 }
 
 #category-top {
@@ -635,12 +635,21 @@ input,textarea {
 }
 
 .about-contents a {
-  text-decoration: none;
   color: blue;
 }
 
-.about-contents a:visited {
+.about-contents a:hover {
   color: blue;
+  text-decoration: none;
+}
+
+.category a {
+  color: #545454;
+}
+
+.category a:hover {
+  color: #545454;
+  text-decoration: none;
 }
 
 .about-contents h3 {

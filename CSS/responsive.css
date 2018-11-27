@@ -108,11 +108,11 @@
     display: block;
   }
 
-  .expert-img {
+  .expert-img-2 {
     display: block;
   }
 
-  .senior-img {
+  .senior-img-2 {
     display: block;
   }
 
@@ -197,7 +197,7 @@
   }
 
   #category-logo img {
-    width: 120px;
+    width: 100px;
     height: 100px;
   }
 }
