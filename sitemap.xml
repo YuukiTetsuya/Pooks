@@ -3,18 +3,8 @@
 
 <!--  created with free sitemap generation system www.sitemapxml.jp  --> 
 <url>
-  <loc>https://yuukitetsuya.github.io/Pooks/</loc>
-  <lastmod>2018-11-17T07:37:48+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>https://yuukitetsuya.github.io/Pooks/index.html</loc>
-  <lastmod>2018-11-17T07:37:48+09:00</lastmod>
-  <changefreq>hourly</changefreq>
-</url>
-<url>
-  <loc>https://yuukitetsuya.github.io/Pooks/view/kyoyo.html</loc>
-  <lastmod>2018-11-17T07:37:48+09:00</lastmod>
+  <loc>https://pooks.herokuapp.com/</loc>
+  <lastmod>2018-11-27T15:08:52+09:00</lastmod>
   <changefreq>hourly</changefreq>
 </url>
 

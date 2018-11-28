@@ -54,9 +54,22 @@
   // Ruby/Railsの本表示リスト
 
   var ruby_lists=[
+      "<div class='book' id='3steruby'><div class='book-link pink'><a href='3stepruby.html'><img src='../image/3stepruby2.jpg'><p class='book-title'>３ステップでしっかり学ぶRuby入門</p><p class='book-title'>¥2,570〜</p></a></div></div>",
       "<div class='book' id='kaiteiper'><div class='book-link pink'><a href='perfectruby.html'><img src='../image/perfectruby2.jpg'><p class='book-title'>改訂2版 パーフェクトRuby</p><p class='book-title'>¥3,521</p></a></div></div>",
       "<div class='book' id='rubyappro'><div class='book-link pink'><a href='rails5app.html'><img src='../image/rails5app2.jpg'><p class='book-title'>Ruby on Rails 5 アプリケーションプログラミング</p><p class='book-title'>¥3,888〜</p></a></div></div>"
     ];
+
+    // Pythonの本表示リスト
+
+    var python_lists=[
+      "<div class='book' id='pythondoku'><div class='book-link pink'><a href='dokugakupro.html'><img src='../image/dokugakupro2.jpg'><p class='book-title'>Python言語の基本から仕事のやり方まで</p><p class='book-title'>¥2,200</p></a></div></div>"
+      ];
+
+    // Swiftの本表示リスト
+
+    var swift_lists=[
+      "<div class='book' id='kaiteiswi'><div class='book-link pink'><a href='swiftpocket.html'><img src='../image/swiftpocket2.jpg'><p class='book-title'>[改訂新版]Swiftポケットリファレンス</p><p class='book-title'>¥2,880〜</p></a></div></div>"
+      ];
 
 // ランダム表示のプログラム
 
@@ -100,6 +113,18 @@ function ruby_random(){
   var rNo = Math.floor(Math.random() * ruby_lists.length);
   document.write(ruby_lists[rNo]);
   ruby_lists.splice(rNo,1);
+}
+
+function python_random(){
+  var rNo = Math.floor(Math.random() * python_lists.length);
+  document.write(python_lists[rNo]);
+  python_lists.splice(rNo,1);
+}
+
+function swift_random(){
+  var rNo = Math.floor(Math.random() * swift_lists.length);
+  document.write(swift_lists[rNo]);
+  swift_lists.splice(rNo,1);
 }
 
 // 表示用関数
@@ -155,8 +180,24 @@ function react_display(){
 
 function ruby_display(){
   var count = 1;
-  while(count <= 2){
+  while(count <= 3){
     ruby_random();
+    count++;
+  }
+}
+
+function python_display(){
+  var count = 1;
+  while(count <= 1){
+    python_random();
+    count++;
+  }
+}
+
+function swift_display(){
+  var count = 1;
+  while(count <= 1){
+    swift_random();
     count++;
   }
 }

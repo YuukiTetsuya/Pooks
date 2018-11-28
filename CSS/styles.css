@@ -198,6 +198,11 @@ blockquote a:visited {
   padding: 13px;
   display: inline-block;
   border-radius: 35px;
+  transition: all 0.2s;
+}
+
+.share-btn:hover {
+  opacity: 0.8;
 }
 
 .top-btn {
@@ -225,6 +230,7 @@ blockquote a:visited {
 
 .top-btn > i {
   margin: 0 5px;
+  transition: all 0.2s;
 }
 
 .twitter {
@@ -233,14 +239,6 @@ blockquote a:visited {
 
 .sns-share {
   margin-top: 25px;
-}
-
-.sns-share i {
-  transition: all 0.7s;
-}
-
-.sns-share i:hover {
-  transform: rotateY(360deg);
 }
 
 .facebook {
@@ -608,6 +606,7 @@ input,textarea {
   cursor: pointer;
   background-color: rgba(0,112,108,1);
 }
+
 .contact-submit:active {
   position: relative;
   top: 5px;
