@@ -200,4 +200,8 @@
     width: 100px;
     height: 100px;
   }
+
+  .about-contents h3 {
+    font-size: 18px;
+  }
 }

@@ -71,6 +71,56 @@
       "<div class='book' id='kaiteiswi'><div class='book-link pink'><a href='swiftpocket.html'><img src='../image/swiftpocket2.jpg'><p class='book-title'>[改訂新版]Swiftポケットリファレンス</p><p class='book-title'>¥2,880〜</p></a></div></div>"
       ];
 
+    // Objective-Cの本表示リスト
+
+    var objectivec_lists=[
+      "<div class='book' id='syokaiob'><div class='book-link pink'><a href='objectivecsyokai.html'><img src='../image/objectivecsyokai2.jpg'><p class='book-title'>詳解 Objective-C 2.0 第3版</p><p class='book-title'>¥3,672〜</p></a></div></div>"
+      ];
+
+    // Gitの本表示リスト
+
+    var git_lists=[
+      "<div class='book' id='nyugito'><div class='book-link pink'><a href='nyumongit.html'><img src='../image/nyumongit2.jpg'><p class='book-title'>入門Git</p><p class='book-title'>¥1〜</p></a></div></div>"
+      ];
+
+    // SQLの本表示リスト
+
+    var sql_lists=[
+      "<div class='book' id='bigdata'><div class='book-link pink'><a href='sqlbigdata.html'><img src='../image/sqlbigdata2.jpg'><p class='book-title'>ビッグデータ分析・活用のためのSQLレシピ</p><p class='book-title'>¥3,800〜</p></a></div></div>"
+      ];
+
+    // Javaの本表示リスト
+
+    var java_lists=[
+      "<div class='book' id='javaheko'><div class='book-link pink'><a href='javaheikou.html'><img src='../image/javaheikou2.jpg'><p class='book-title'>Java並行処理プログラミング</p><p class='book-title'>¥3,000</p></a></div></div>",
+      "<div class='book' id='sukijava'><div class='book-link pink'><a href='sukkirijava.html'><img src='../image/sukkirijava2.jpg'><p class='book-title'>スッキリわかるJava入門</p><p class='book-title'>¥2,376〜</p></a></div></div>"
+      ];
+
+    // Cの本表示リスト
+
+    var c_lists=[
+        "<div class='book' id='modanc'><div class='book-link pink'><a href='modernc.html'><img src='../image/modernc2.jpg'><p class='book-title'>モダンC言語プログラミング</p><p class='book-title'>¥2,177〜</p></a></div></div>"
+      ];
+
+    // Goの本表示リスト
+
+    var go_lists=[
+      "<div class='book' id='goproji'><div class='book-link pink'><a href='gonyumon.html'><img src='../image/gonyumon2.jpg'><p class='book-title'>Go言語プログラミング実践入門</p><p class='book-title'>¥3,400〜</p></a></div></div>"
+      ];
+
+    // 哲学の本表示リスト
+
+    var tetsugaku_lists=[
+      "<div class='book' id='kyoyopro'><div class='book-link pink'><a href='kyoyo.html'><img src='../image/kyoyo2.jpg'><p class='book-title'>教養としてのプログラミング講座</p><p class='book-title'>¥842</p></a></div></div>",
+      "<div class='book' id='prohaji'><div class='book-link pink'><a href='aidelia.html'><img src='../image/aidelia2.jpg'><p class='book-title'>プログラミングをはじめよう</p><p class='book-title'>¥1,123〜</p></a></div></div>"
+      ];
+
+    // Ciscoの本表示リスト
+
+    var cisco_lists=[
+        "<div class='book' id='tetteccie'><div class='book-link pink'><a href='cciemondai.html'><img src='../image/cciemondai2.jpg'><p class='book-title'>徹底攻略 Cisco CCIE Routing & Switching 筆記試験対策問題</p><p class='book-title'>¥5,995〜</p></a></div></div>"
+      ];
+
 // ランダム表示のプログラム
 
 function begin_random(){
@@ -125,6 +175,54 @@ function swift_random(){
   var rNo = Math.floor(Math.random() * swift_lists.length);
   document.write(swift_lists[rNo]);
   swift_lists.splice(rNo,1);
+}
+
+function objectivec_random(){
+  var rNo = Math.floor(Math.random() * objectivec_lists.length);
+  document.write(objectivec_lists[rNo]);
+  objectivec_lists.splice(rNo,1);
+}
+
+function git_random(){
+  var rNo = Math.floor(Math.random() * git_lists.length);
+  document.write(git_lists[rNo]);
+  git_lists.splice(rNo,1);
+}
+
+function sql_random(){
+  var rNo = Math.floor(Math.random() * sql_lists.length);
+  document.write(sql_lists[rNo]);
+  sql_lists.splice(rNo,1);
+}
+
+function java_random(){
+  var rNo = Math.floor(Math.random() * java_lists.length);
+  document.write(java_lists[rNo]);
+  java_lists.splice(rNo,1);
+}
+
+function c_random(){
+  var rNo = Math.floor(Math.random() * c_lists.length);
+  document.write(c_lists[rNo]);
+  c_lists.splice(rNo,1);
+}
+
+function go_random(){
+  var rNo = Math.floor(Math.random() * go_lists.length);
+  document.write(go_lists[rNo]);
+  go_lists.splice(rNo,1);
+}
+
+function tetsugaku_random(){
+  var rNo = Math.floor(Math.random() * tetsugaku_lists.length);
+  document.write(tetsugaku_lists[rNo]);
+  tetsugaku_lists.splice(rNo,1);
+}
+
+function cisco_random(){
+  var rNo = Math.floor(Math.random() * cisco_lists.length);
+  document.write(cisco_lists[rNo]);
+  cisco_lists.splice(rNo,1);
 }
 
 // 表示用関数
@@ -198,6 +296,70 @@ function swift_display(){
   var count = 1;
   while(count <= 1){
     swift_random();
+    count++;
+  }
+}
+
+function objectivec_display(){
+  var count = 1;
+  while(count <= 1){
+    objectivec_random();
+    count++;
+  }
+}
+
+function git_display(){
+  var count = 1;
+  while(count <= 1){
+    git_random();
+    count++;
+  }
+}
+
+function sql_display(){
+  var count = 1;
+  while(count <= 1){
+    sql_random();
+    count++;
+  }
+}
+
+function java_display(){
+  var count = 1;
+  while(count <= 2){
+    java_random();
+    count++;
+  }
+}
+
+function c_display(){
+  var count = 1;
+  while(count <= 1){
+    c_random();
+    count++;
+  }
+}
+
+function go_display(){
+  var count = 1;
+  while(count <= 1){
+    go_random();
+    count++;
+  }
+}
+
+function tetsugaku_display(){
+  var count = 1;
+  while(count <= 2){
+    tetsugaku_random();
+    count++;
+  }
+}
+
+function cisco_display(){
+  var count = 1;
+  while(count <= 1){
+    cisco_random();
     count++;
   }
 }

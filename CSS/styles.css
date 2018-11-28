@@ -50,6 +50,19 @@ blockquote a:visited {
   color: #545454;
 }
 
+#sankou {
+  color: #545454;
+}
+
+#sankou:hover {
+  text-decoration: none;
+}
+
+#sankou:visited {
+  color: #545454;
+}
+
+
 .logo {
   float: left;
   width: 50px;
